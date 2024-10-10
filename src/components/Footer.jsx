@@ -19,51 +19,45 @@ const Footer = () => {
   const solutions = [
     {
       name: "brand",
-      link: "https://unstop.com/employers/brand",
+      link: "#",
     },
   ];
 
   const products = [
     {
       name: "technology platform",
-      link: "https://unstop.com/virtual-event-platform",
+      link: "#",
     },
   ];
 
   const participate = [
     {
       name: "competitions & challenges",
-      link: "https://unstop.com/competitions",
+      link: "#",
     },
   ];
 
   const apply = [
     {
       name: "internships",
-      link: "https://unstop.com/internships",
+      link: "#",
     },
   ];
 
   const learn = [
     {
       name: "courses",
-      link: "https://unstop.com/blog-articles",
+      link: "#",
     },
   ];
 
   const practice = [
     {
       name: "MCQ mock tests",
-      link: "https://unstop.com/courses/mocks",
+      link: "#",
     },
   ];
 
-  const properties = [
-    {
-      name: "Unstop Awards 2023",
-      link: "https://unstop.com/awards/2023",
-    },
-  ];
 
   return (
     <footer>
@@ -87,7 +81,7 @@ const Footer = () => {
             <h3>Stay Connected</h3>
             <div className="footer-contact-links">
               <a
-                href="mailto:sales@unstop.com"
+                href="mailto:"
                 className="mail"
                 target="_blank"
                 rel="noreferrer"
@@ -96,7 +90,7 @@ const Footer = () => {
                 
               </a>
               <a
-                href="tel:9311777388"
+                // href="tel:9311777388"
                 className="mail"
               >
                 <MdLocalPhone />
@@ -105,42 +99,42 @@ const Footer = () => {
             </div>
             <div className="footer-social-links dash">
               <a
-                href="https://www.instagram.com/unstop.world/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
                 <AiFillInstagram />
               </a>
               <a
-                href="https://www.linkedin.com/company/unstop"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
               <a
-                href="https://www.facebook.com/Unstop.world"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaFacebookF />
               </a>
               <a
-                href="https://t.me/+ON15qceSy-IyZjY9"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaTelegramPlane />
               </a>
               <a
-                href="https://discord.com/invite/DvYWXNr4yR"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaDiscord />
               </a>
               <a
-                href="https://twitter.com/Unstop_World"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -324,7 +318,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-right-bottom">
-              <div className="footer-properties">
+              {/* <div className="footer-properties">
                 <div className="footer-products">
                   <h4>our properties</h4>
                   <div className="footer-products-links links-cont">
@@ -342,7 +336,7 @@ const Footer = () => {
                     })}
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* <div className="footer-other-links">
                 <div className="same-row-links">
                   <a

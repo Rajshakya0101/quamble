@@ -14,7 +14,6 @@ const Navbar = () => {
             <div className="nav-img">
               <NavLink to={"/"}>
                 <img
-                  
                   src = {logo}
                   alt="logo"
                 />

@@ -93,14 +93,14 @@ const HomeHero = () => {
                 <div className="home-hero-image">
                   {/* Front Side */}
                   <div className="home-hero-card-front">
-                    <span className="home-hero-card-title">{ele.title}</span> {/* Title on Front */}
+                    <span className="home-hero-card-title-front">{ele.title}</span> {/* Title on Front */}
                     <a href={ele.link}>
                       <img src={ele.image} alt={ele.title} />
                     </a>
                   </div>
                   {/* Back Side */}
                   <div className="home-hero-card-back">
-                    <span className="home-hero-card-title">{ele.title}</span> {/* Title on Back */}
+                    <span className="home-hero-card-title-back">{ele.title}</span> {/* Title on Back */}
                     <h3>Top 5 Players</h3>
                     <ul>
                       {ele.scores.map((score, idx) => (
